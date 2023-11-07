@@ -1,0 +1,32 @@
+.form {
+  background-color: $clr-neutral-100;
+  display: grid;
+  gap: 3rem;
+  padding: 1.6rem;
+  border-radius: 9px;
+
+  &__heading {
+    font-size: 1.8rem;
+    font-weight: $fw-semi-bold;
+    color: $clr-gray-700;
+  }
+
+  input,
+  textarea {
+    padding: 1.2rem;
+    border: 1.5px solid #eee;
+    border-radius: 9px;
+    outline: none;
+    font-family: inherit;
+    font-size: 1.6rem;
+
+    &:focus {
+      border-color: $clr-primary;
+      box-shadow: $custom-shadow;
+    }
+  }
+
+  textarea {
+    resize: none;
+  }
+}

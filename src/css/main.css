@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 124rem;
+  width: 80%;
+}
+
+.btn[data-section] {
+  background-color: none;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+}
+
+header {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 18px 32px 0px rgba(26, 224, 151, 0.053);
+  height: 7.2rem;
+}
+header .logo-image {
+  display: block;
+  height: 4rem;
+}
+
+.container__links {
+  display: flex;
+  gap: 10vw;
+}
+
+.nav {
+  max-width: 124rem;
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}

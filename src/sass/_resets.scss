@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  @media (max-width: 50em) {
+    font-size: 60%;
+  }
+}
+
+body {
+  font-family: $ff-body;
+  line-height: $lHeight-body;
+  background-color: $clr-primary-tint;
+  position: relative;
+  overflow-x: hidden;
+}
+
+section {
+  padding-block: 6rem;
+  margin-bottom: 6rem;
+}
+
+footer {
+  padding-block: 6rem;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,50 @@
+.footer {
+  background-color: #1e9469;
+  background-image: linear-gradient(to bottom right, #1e9469, #1da170);
+  // color: $clr-neutral-100;
+  color: #e4f7f0;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.8rem;
+
+    @media (max-width: 50em) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .sub-heading {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight: $fw-bold;
+  }
+
+  .social {
+    &__links {
+      display: flex;
+      gap: 1.2rem;
+    }
+  }
+  nav {
+    // columns: 2;
+    display: flex;
+    gap: 4.8rem;
+
+    @media (max-width: 50em) {
+      flex-direction: column;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4rem;
+  }
+}

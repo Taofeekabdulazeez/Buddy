@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/sass/main.css" />
+    <title>Buddy</title>
+  </head>
+  <body>
+    <!-- <div class="login-overlay">hello</div> -->
+    <header>
+      <nav class="nav">
+        <a class="logo-box" href="\#">
+          <img class="logo-image" src="./images/Logo-img.png" alt="logo" />
+        </a>
+        <div class="container__links">
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link active btn" href="\#" data-section>Home</a>
+            </li>
+            <li><a class="nav__link btn" href="\#" data-section>CGPA</a></li>
+            <li><a class="nav__link btn" href="\#" data-section>About</a></li>
+            <li><a class="nav__link btn" href="\#" data-section>FAQS</a></li>
+          </ul>
+          <ul class="nav__links">
+            <li>
+              <a
+                class="btn"
+                data-inverted
+                href="./src/login.html"
+                target="_blank"
+                data-action
+                >Login</a
+              >
+            </li>
+            <li>
+              <a class="btn" href="\sign-up" data-cta data-action>SignUp</a>
+            </li>
+          </ul>
+        </div>
+        <button class="btn--nav">
+          <svg
+            class="icon icon--open"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <svg
+            class="icon icon--close"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="section--hero">
+        <div class="container">
+          <div class="intro__container">
+            <div>
+              <div class="intro__img-box">
+                <img
+                  class="intro__icon intro__icon-1"
+                  src="/images/hero-icon1.png"
+                  alt=""
+                />
+                <img src="/images/hero-img1.png" alt="" />
+              </div>
+            </div>
+            <div class="intro__content">
+              <h1 class="heading__primary">
+                Improve your academic prowess by
+                <span class="text-gradient">accessing</span> materials with
+                Buddy
+              </h1>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur. Consequat eget sit ipsum
+                vestibulum cum risus. Amet turpis sed sapien vel sed fusce nibh
+                suspendisse. Malesuada odio venenatis ac massa.
+              </p>
+            </div>
+            <div>
+              <div class="intro__img-box">
+                <img
+                  class="intro__icon intro__icon-2"
+                  src="/images/hero-icon2.png"
+                  alt=""
+                />
+                <img src="/images/hero-img2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="intro__cta">
+            <a style="margin-right: 20px" class="btn" href="\#" data-cta
+              ><svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z"
+                />
+              </svg>
+              Calculate CGPA</a
+            >
+            <a class="btn" data-inverted href="#\"
+              ><svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"
+                /></svg
+              >Upload
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section--operation">
+        <div class="container">
+          <div class="title">
+            <h2 class="heading__secondary">
+              What you can do with <span class="text-gradient">Buddy</span>
+            </h2>
+            <p class="paragraph">
+              We provide various features to make your academic journey easy
+            </p>
+          </div>
+          <div class="operations">
+            <div class="operations__content">
+              <span class="operations__icon-box">
+                <svg
+                  class="icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z"
+                  />
+                </svg>
+              </span>
+              <h3 class="operations__title heading--sm">Calculate your CGPA</h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur. In cum nibh feugiat
+                sagittis turpis in volutpat gravida nullam. Volutpat non
+                tincidunt augue amet pellentesque velit.
+              </p>
+            </div>
+            <div class="operations__content">
+              <span class="operations__icon-box">
+                <svg
+                  class="icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"
+                  />
+                </svg>
+              </span>
+              <h3 class="operations__title heading--sm">
+                Get materials and past questions
+              </h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur. In cum nibh feugiat
+                sagittis turpis in volutpat gravida nullam. Volutpat non
+                tincidunt augue amet pellentesque velit.
+              </p>
+            </div>
+            <div class="operations__content">
+              <span class="operations__icon-box"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10"
+                  />
+                </svg>
+              </span>
+              <h3 class="operations__title heading--sm">courses mock test</h3>
+
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur. In cum nibh feugiat
+                sagittis turpis in volutpat gravida nullam. Volutpat non
+                tincidunt augue amet pellentesque velit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--features">
+        <div class="container">
+          <div class="feature">
+            <div class="feature__content">
+              <h2 class="heading__secondary">
+                Get yourself <span class="text-gradient">prepared</span> for
+                exams with muck tests
+              </h2>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur. Amet ipsum pretium
+                mauris eu malesuada et aliquam dolor vitae. Ultrices nulla
+                egestas quisque eu blandit et neque amet. Morbi et egestas
+                egestas in. Vitae elit felis dictum diam .
+              </p>
+              <a href="#\" class="btn" data-cta>Try it out</a>
+            </div>
+            <div class="feature__img-box">
+              <img src="/images/mockup01.png" alt="" />
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature__img-box" data-image="2">
+              <img src="/images/mockup03.png" alt="" />
+            </div>
+            <div class="feature__content">
+              <h2 class="heading__secondary">
+                <span class="text-gradient">Upload</span> and
+                <span class="text-gradient">download</span> materials for your
+                courses
+              </h2>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur. Amet ipsum pretium
+                mauris eu malesuada et aliquam dolor vitae. Ultrices nulla
+                egestas quisque eu blandit et neque amet. Morbi et egestas
+                egestas in. Vitae elit felis dictum diam .
+              </p>
+              <a href="#\" class="btn" data-cta>Try it out</a>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature__content">
+              <h2 class="heading__secondary">
+                We’d love to hear your
+                <span class="text-gradient">feedback</span> and
+                <span class="text-gradient">suggestions</span>
+              </h2>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur. Amet ipsum pretium
+                mauris eu malesuada et aliquam dolor vitae. Ultrices nulla
+                egestas quisque eu blandit et neque amet. Morbi et egestas
+                egestas in. Vitae elit felis dictum diam .
+              </p>
+            </div>
+            <form class="form">
+              <h3 class="form__heading">Input your suggestion here</h3>
+              <input
+                type="text"
+                placeholder="Input your name"
+                spellcheck="false"
+              />
+              <input
+                type="email"
+                placeholder="Enter email address"
+                spellcheck="false"
+              />
+              <textarea
+                placeholder="Type your suggestion here"
+                rows="12"
+              ></textarea>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="section--accordion">
+        <div class="container--sm">
+          <div class="section__description">
+            <span>FAQ</span>
+            <h2 class="heading__secondary">What people always ask us</h2>
+          </div>
+          <div class="accordion">
+            <div class="accordion__component">
+              <div class="accordion__panel">
+                <h4 class="accordion__title">
+                  Frequently asked question will be here
+                </h4>
+                <button>
+                  <svg
+                    class="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="accordion__content">
+                <p class="paragraph">
+                  Tenetur molestias ut voluptatem consequatur quasi nobis
+                  eveniet iste, quidem vitae hic itaque accusantium excepturi
+                  obcaecati ipsam impedit eos nihil, unde neque porro suscipit
+                  quod, quam doloribus! Laudantium dolores, voluptatum eligendi
+                  omnis soluta aliquid minus atque doloremque et. Impedit
+                  perferendis saepe necessitatibus quod, porro quam magni
+                  consectetur. Placeat doloribus, maiores suscipit et, repellat
+                  nemo cupiditate architecto tenetur recusandae accusamus odit
+                  voluptate illum incidunt hic nostrum molestiae quidem
+                  similique illo nisi esse facilis error debitis quos magnam.
+                  Sint illum ab iste commodi, perferendis, harum alias vero unde
+                  aliquam animi error corporis iusto quisquam?
+                </p>
+              </div>
+            </div>
+            <div class="accordion__component">
+              <div class="accordion__panel">
+                <h4 class="accordion__title">
+                  Frequently asked question will be here
+                </h4>
+                <button>
+                  <svg
+                    class="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="accordion__content">
+                <p class="paragraph">
+                  omnis soluta aliquid minus atque doloremque et. Impedit
+                  perferendis saepe necessitatibus quod, porro quam magni
+                  consectetur. Placeat doloribus, maiores suscipit et, repellat
+                  nemo cupiditate architecto tenetur recusandae accusamus odit
+                  voluptate illum incidunt hic nostrum molestiae quidem
+                  similique illo nisi esse facilis error debitis quos magnam.
+                  Sint illum ab iste commodi, perferendis, harum alias vero unde
+                  aliquam animi error corporis iusto quisquam?
+                </p>
+              </div>
+            </div>
+            <div class="accordion__component">
+              <div class="accordion__panel">
+                <h4 class="accordion__title">
+                  Frequently asked question will be here
+                </h4>
+                <button>
+                  <svg
+                    class="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="accordion__content">
+                <p class="paragraph">
+                  omnis soluta aliquid minus atque doloremque et. Impedit
+                  perferendis saepe necessitatibus quod, porro quam magni
+                  consectetur. Placeat doloribus, maiores suscipit et, repellat
+                  nemo cupiditate architecto tenetur recusandae accusamus odit
+                  voluptate illum incidunt hic nostrum molestiae quidem
+                  similique illo nisi esse facilis error debitis quos magnam.
+                  Sint illum ab iste commodi, perferendis, harum alias vero unde
+                  aliquam animi error corporis iusto quisquam?
+                </p>
+              </div>
+            </div>
+            <div class="accordion__component">
+              <div class="accordion__panel">
+                <h4 class="accordion__title">
+                  Frequently asked question will be here
+                </h4>
+                <button>
+                  <svg
+                    class="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="accordion__content">
+                <p class="paragraph">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur molestias ut voluptatem consequatur quasi nobis
+                  eveniet iste, quidem vitae hic itaque accusantium excepturi
+                  obcaecati ipsam impedit eos nihil, unde neque porro suscipit
+                  quod, quam doloribus! Laudantium dolores, voluptatum eligendi
+                  omnis soluta aliquid minus atque doloremque et. Impedit
+                  perferendis saepe necessitatibus quod, porro quam magni
+                  consectetur. Placeat doloribus, maiores suscipit et, repellat
+                  nemo cupiditate architecto tenetur recusandae accusamus odit
+                  voluptate illum incidunt hic nostrum molestiae quidem
+                  similique illo nisi esse facilis error debitis quos magnam.
+                  Sint illum ab iste commodi, perferendis, harum alias vero unde
+                  aliquam animi error corporis iusto quisquam?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__container">
+            <div class="social">
+              <h5 class="sub-heading">Reach out to buddy creators on</h5>
+              <ul class="social__links">
+                <li>
+                  <a href="#\" class="social__link"
+                    ><svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M29.9467 7.99992C28.92 8.46659 27.8133 8.77325 26.6667 8.91992C27.84 8.21325 28.7467 7.09325 29.1733 5.74659C28.0667 6.41325 26.84 6.87992 25.5467 7.14659C24.4933 5.99992 23.0133 5.33325 21.3333 5.33325C18.2 5.33325 15.64 7.89325 15.64 11.0533C15.64 11.5066 15.6933 11.9466 15.7867 12.3599C11.04 12.1199 6.81334 9.83992 4.00001 6.38659C3.50668 7.22659 3.22668 8.21325 3.22668 9.25325C3.22668 11.2399 4.22668 12.9999 5.77334 13.9999C4.82668 13.9999 3.94668 13.7333 3.17334 13.3333V13.3733C3.17334 16.1466 5.14668 18.4666 7.76001 18.9866C6.92098 19.2162 6.04014 19.2481 5.18668 19.0799C5.54882 20.2166 6.25806 21.2111 7.2147 21.9238C8.17134 22.6365 9.32727 23.0315 10.52 23.0533C8.49818 24.6538 5.99201 25.519 3.41334 25.5066C2.96001 25.5066 2.50668 25.4799 2.05334 25.4266C4.58668 27.0532 7.60001 27.9999 10.8267 27.9999C21.3333 27.9999 27.1067 19.2799 27.1067 11.7199C27.1067 11.4666 27.1067 11.2266 27.0933 10.9733C28.2133 10.1733 29.1733 9.15992 29.9467 7.99992Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#\" class="social__link"
+                    ><svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.3333 4C26.0406 4 26.7189 4.28095 27.219 4.78105C27.719 5.28115 28 5.95942 28 6.66667V25.3333C28 26.0406 27.719 26.7189 27.219 27.219C26.7189 27.719 26.0406 28 25.3333 28H6.66667C5.95942 28 5.28115 27.719 4.78105 27.219C4.28095 26.7189 4 26.0406 4 25.3333V6.66667C4 5.95942 4.28095 5.28115 4.78105 4.78105C5.28115 4.28095 5.95942 4 6.66667 4H25.3333ZM24.6667 24.6667V17.6C24.6667 16.4472 24.2087 15.3416 23.3936 14.5264C22.5784 13.7113 21.4728 13.2533 20.32 13.2533C19.1867 13.2533 17.8667 13.9467 17.2267 14.9867V13.5067H13.5067V24.6667H17.2267V18.0933C17.2267 17.0667 18.0533 16.2267 19.08 16.2267C19.5751 16.2267 20.0499 16.4233 20.3999 16.7734C20.75 17.1235 20.9467 17.5983 20.9467 18.0933V24.6667H24.6667ZM9.17333 11.4133C9.76742 11.4133 10.3372 11.1773 10.7573 10.7573C11.1773 10.3372 11.4133 9.76742 11.4133 9.17333C11.4133 7.93333 10.4133 6.92 9.17333 6.92C8.57571 6.92 8.00257 7.1574 7.57999 7.57999C7.1574 8.00257 6.92 8.57571 6.92 9.17333C6.92 10.4133 7.93333 11.4133 9.17333 11.4133ZM11.0267 24.6667V13.5067H7.33333V24.6667H11.0267Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#\" class="social__link"
+                    ><svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M29.3333 16.0001C29.3333 8.64008 23.36 2.66675 16 2.66675C8.63999 2.66675 2.66666 8.64008 2.66666 16.0001C2.66666 22.4534 7.25332 27.8267 13.3333 29.0667V20.0001H10.6667V16.0001H13.3333V12.6667C13.3333 10.0934 15.4267 8.00008 18 8.00008H21.3333V12.0001H18.6667C17.9333 12.0001 17.3333 12.6001 17.3333 13.3334V16.0001H21.3333V20.0001H17.3333V29.2667C24.0667 28.6001 29.3333 22.9201 29.3333 16.0001Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#\" class="social__link"
+                    ><svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.51841 8.4575L14.5184 14.9039C14.9216 15.1199 15.4432 15.2223 15.968 15.2223C16.4928 15.2223 17.0144 15.1199 17.4176 14.9039L29.4176 8.4575C30.2 8.0367 30.9392 6.3999 29.504 6.3999H2.43361C0.998409 6.3999 1.73761 8.0367 2.51841 8.4575ZM29.7808 11.9823L17.4176 18.4255C16.8736 18.7103 16.4928 18.7439 15.968 18.7439C15.4432 18.7439 15.0624 18.7103 14.5184 18.4255C13.9744 18.1407 3.10561 12.4431 2.21761 11.9807C1.59361 11.6543 1.60001 12.0367 1.60001 12.3311V23.9999C1.60001 24.6719 2.50561 25.5999 3.20001 25.5999H28.8C29.4944 25.5999 30.4 24.6719 30.4 23.9999V12.3327C30.4 12.0383 30.4064 11.6559 29.7808 11.9823Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <nav>
+              <ul class="footer__links">
+                <li class="sub-heading">Services</li>
+                <li><a class="footer__link" href="#\">Calculate CGPA</a></li>
+                <li><a class="footer__link" href="#\">Mock test</a></li>
+                <li>
+                  <a class="footer__link" href="#\">Download materials</a>
+                </li>
+              </ul>
+              <ul class="footer__links">
+                <li class="sub-heading">Guidelines</li>
+                <li><a class="footer__link" href="#\">Terms</a></li>
+                <li><a class="footer__link" href="#\">Licenses</a></li>
+                <li><a class="footer__link" href="#\">How to use</a></li>
+              </ul>
+            </nav>
+            <div>
+              <h5 class="sub-heading">Best of luck in your academic journey</h5>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <div class="overlay"></div>
+    <script src="./src/JS/script.js"></script>
+  </body>
+</html>

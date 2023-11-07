@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+$clr-neutral-100: hsl(0, 0%, 100%);
+
+$clr-neutral-900: hsl(0, 0%, 0%);
+
+$clr-gray-400: hsla(0, 0%, 51%, 1);
+$clr-gray-700: hsla(0, 0%, 20%, 1);
+
+$clr-primary: #1ae097;
+$clr-primary-tint: hsla(158, 90%, 39%, 0.039);
+
+$custom-shadow: 0px 18px 32px 0px rgba(26, 224, 151, 0.053);
+
+$lHeight-body: 1;
+$lHeight-heading: 1.2;
+$lHeight-text: 1.6;
+
+$fw-regular: 400;
+$fw-semi-bold: 500;
+$fw-bold: 600;
+$fw-x-bold: 700;
+$fw-xx-bold: 800;
+
+$container-width: 124rem;
+
+$ff-body: "Roboto", sans-serif;
